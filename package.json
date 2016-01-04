@@ -1,0 +1,32 @@
+{
+  "name": "flowee-doc",
+  "version": "1.0.0",
+  "description": "generate html- and markdown-endpoints based on flowee (swagger) model",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "post_install": ".hooks/npm-post-install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://coderofsalvation@github.com/coderofsalvation/flowee-doc.git"
+  },
+  "docor": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/flowee-doc/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/flowee-doc#readme",
+  "devDependencies": {
+    "flowee": "^1.0.0",
+    "node-fetch": "^1.3.3"
+  },
+  "dependencies": {
+    "ecstatic": "^1.4.0",
+    "json-ref-lite": "^1.0.73",
+    "swagger-ui": "2.1.3"
+  }
+}

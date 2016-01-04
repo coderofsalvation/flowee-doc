@@ -1,0 +1,5 @@
+#!/bin/bash
+SELF_DIR="$(dirname "$(readlink -f "$0" )" )" 
+cd "$SELF_DIR"
+sed -i 's|http://petstore.swagger.io/v2/swagger.json|/model|g' ../node_modules/swagger-ui/dist/index.html
+sed -i 's|<a id="logo" href="http://swagger.io">swagger</a>|<a id="logo" href="#">Api docs</a>|g' ../node_modules/swagger-ui/dist/index.html
