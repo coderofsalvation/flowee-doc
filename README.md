@@ -1,6 +1,6 @@
 Helper / Example extension for automatic html+markdown api docs for flowee 
 
-<img alt='' src='https://travis-ci.org/coderofsalvation/flowee-doc.svg'/>
+![Build Status](https://travis-ci.org/coderofsalvation/flowee-doc.svg?branch=master)
 
 ## Usage
 
@@ -13,4 +13,6 @@ Assuming you already have your [flowee](https://npmjs.org/flowee) api running/in
     require('flowee-doc')(flowee)                        <------ add this
     app = flowee.init( {model: model, store:true } )
 
-then surf to `/doc` or `/doc/md` for html/markdown output
+then surf to `/doc` or `/doc/md` for html/markdown output:
+
+<img alt="" src=".doc/apiexplorer.png"/>
