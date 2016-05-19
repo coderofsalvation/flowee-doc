@@ -4,8 +4,8 @@ module.exports = ( (flowee) ->
 
   me = @
 
-    
-  flowee.use require('ecstatic')({ root: __dirname + '/node_modules/swagger-ui/dist', baseDir: "doc", handleErrors:false })
+  flowee.use require('ecstatic')({ root: __dirname + '/../node_modules/swagger-ui/dist', baseDir: "doc", handleErrors:false })
+  
   flowee.on 'init', (flowee,staticfiles) ->
     flowee.router.get '/doc', (req,res,next) -> 
       res.redirect '/doc/index.html#!/default';

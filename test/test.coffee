@@ -2,13 +2,12 @@ request      = require './util/requester.coffee'
 t            = require './util/tester.coffee'
   
 flowee   = require 'flowee'
-#flowee.verbosity = 2
+flowee.verbosity = 2
 require('./../index.coffee')(flowee)
 model    = require('flowee/test/model.coffee')
 
 t.test 'starting server', (next) ->
 
-  require('./../.')(flowee)
   app = flowee.init {model: model, store:true }
 
   flowee.start (server) ->
