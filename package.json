@@ -1,6 +1,6 @@
 {
   "name": "flowee-doc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generate html- and markdown-endpoints based on flowee (swagger) model",
   "main": "index.js",
   "directories": {
