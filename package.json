@@ -22,7 +22,7 @@
   "homepage": "https://github.com/coderofsalvation/flowee-doc#readme",
   "devDependencies": {
     "flowee": "^1.0.0",
-    "node-fetch": "^1.3.3"
+    "node-fetch": "^2.6.1"
   },
   "dependencies": {
     "ecstatic": "^1.4.0",
